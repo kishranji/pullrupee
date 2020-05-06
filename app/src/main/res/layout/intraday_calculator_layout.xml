@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pullrupee_bc_img"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Order"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/edit_text_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/transprent_background_rectangle"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dimen_5dp"
+        android:paddingRight="@dimen/dimen_5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Symbol"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/edit_text_size" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/transprent_background_rectangle">
+
+                <Spinner
+                    android:id="@+id/symbol_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/edit_text_size"
+                    android:background="@null"
+                    android:padding="@dimen/edit_text_size"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/edit_text_size" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_ltp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/edit_text_size"
+                android:layout_weight="1"
+                android:text="LTP"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2.05"
+                android:text="Strategy"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/edit_text_size" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.95"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RadioButton
+                    android:id="@+id/radio_deposit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/edit_text_size"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorWhite"
+                    android:checked="true"
+                    android:text="Buy"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/edit_text_size" />
+
+                <RadioButton
+                    android:id="@+id/radio_withdraw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorWhite"
+                    android:checked="false"
+                    android:text="Sell"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/edit_text_size" />
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.9"
+                android:text="Qty"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/edit_text_size" />
+
+            <EditText
+
+                android:id="@+id/buy_qty_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/edit_text_size"
+                android:layout_weight="1"
+                android:background="@drawable/transprent_background_rectangle"
+                android:inputType="number"
+                android:maxLength="7"
+                android:maxLines="1"
+                android:padding="@dimen/dimen_5dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/edit_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.1"
+                android:text="Price"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/edit_text_size" />
+
+            <EditText
+
+                android:id="@+id/buy_price_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/edit_text_size"
+                android:layout_weight="1"
+                android:background="@drawable/transprent_background_rectangle"
+                android:inputType="number"
+                android:maxLength="7"
+                android:maxLines="1"
+                android:padding="@dimen/dimen_5dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/edit_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.4"
+                android:text="Status"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/edit_text_size" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RadioButton
+                    android:id="@+id/radio_pending"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/edit_text_size"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorWhite"
+                    android:checked="true"
+                    android:text="Pending"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/edit_text_size" />
+
+                <RadioButton
+                    android:id="@+id/radio_Excuted"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorWhite"
+                    android:checked="false"
+                    android:text="Executed"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/edit_text_size" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/dimen_5dp"
+            android:background="@color/colorWhite"
+            android:text="@string/submit"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/login_margin_top"
+        android:text="OverView"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_margin_top"
+        android:gravity="center"
+        android:text="Daily Target Reached"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:textStyle="bold" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/transprent_background_rectangle"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/transprent_background_rectangle"
+            android:text="Symbol"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/transprent_background_rectangle"
+            android:text="Profit/Loss"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/transprent_background_rectangle"
+            android:text="Holdings Qty"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/transprent_background_rectangle"
+            android:text="LTP"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/transprent_background_rectangle"
+            android:text="Expected"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_overView_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/transprent_background_rectangle">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/login_margin_top"
+        android:text="Trades"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_margin_top"
+        android:gravity="center"
+        android:text="Switch Status"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:textStyle="bold" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/transprent_background_rectangle"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/transprent_background_rectangle"
+            android:text="Symbol"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/transprent_background_rectangle"
+            android:text="Action"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/transprent_background_rectangle"
+            android:text="Qty"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/transprent_background_rectangle"
+            android:text="Price"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/transprent_background_rectangle"
+            android:text="Status"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_history_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/transprent_background_rectangle">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
+
+

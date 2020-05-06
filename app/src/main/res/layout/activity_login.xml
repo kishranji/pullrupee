@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_screen">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/edit_text_size"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/transprent_background"
+            android:ems="10"
+            android:text="joymca@gmail.com"
+            android:hint="@string/edit_email"
+            android:drawableLeft="@drawable/ic_person_white_24dp"
+            android:drawablePadding="@dimen/activity_horizontal_margin"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/color_text_hint"
+            android:textSize="@dimen/edit_text_size" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/ic_lock_white_24dp"
+            android:background="@drawable/transprent_background"
+            android:padding="@dimen/edit_text_size"
+            android:ems="10"
+            android:text="12345"
+            android:hint="@string/edit_password"
+            android:inputType="textPassword|textNoSuggestions"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/color_text_hint"
+            android:textSize="@dimen/edit_text_size" />
+
+        <TextView
+            android:id="@+id/txt_frgtpassword"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/forget_password"
+            android:drawableLeft="@drawable/ic_lock_outline_white_24dp"
+            android:drawablePadding="@dimen/login_margin_top"
+            android:textColor="@color/colorWhite" />
+
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corener"
+            android:text="@string/btn_login"
+            android:textColor="@color/login_btn_text_color"
+            android:textSize="18sp" />
+    </LinearLayout>
+</RelativeLayout>

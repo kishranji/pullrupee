@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Pullrupee</string>
+
+    <!--play store-->
+    <string name="app_google_play_store_link">"https://play.google.com/store/apps/details?id="</string>
+    <string name="app_market_link">"market://details?id="</string>
+
+
+    <!--Login-->
+    <string name="screen_login">Login</string>
+    <string name="edit_email">Email</string>
+    <string name="edit_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="warning_empty_email">Please enter valid Email Id</string>
+    <string name="warning_empty_password"> Please enter value in the password field</string>
+    <string name="warning_invalid_email">Please enter valid Email Id</string>
+    <string name="no_internet_connection">No Internet connection</string>
+    <string name="warning_incorrect_password">Password should contain atleast 6 to 10 characters</string>
+    <string name="warning">Warning</string>
+    <string name="network_error">Network Error : No Data Received.</string>
+    <string name="time_out_error">Timeout.</string>
+    <string name="loading_wait">Loading... Please wait.</string>
+    <string name="current_investment">Current Investment</string>
+    <string name="current_value">Current Value</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">User Email</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="submit">Submit</string>
+    <string name="profit_loss">Profit / Loss in ₹</string>
+    <string name="profit_loss_in">Profit / Loss in %</string>
+    <string name="fund_transaction">Fund Transaction</string>
+    <string name="action">Action</string>
+    <string name="desposit">Deposit</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="amount">Amount</string>
+    <string name="set_target">Set Target</string>
+    <string name="previous">Previous</string>
+    <string name="current_month">Month &amp; Year</string>
+    <string name="next">Next</string>
+    <string name="Rs">\u20B9</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rs">₹</string>
+
+    <string name="target_guide_for_current_month">Target Guide For Current Month</string>
+    <string name="target">Target</string>
+    <string name="so_far_done">So far done</string>
+    <string name="yet_to_do">Yet to do</string>
+    <string name="per_day_required">Per day required</string>
+    <string name="days_in_hand">Days in hand</string>
+    <string name="target_history">Target History</string>
+    <string name="month">Month</string>
+
+    <string name="achieved_amount">Achieved Amount</string>
+    <string name="target_amount">Target Amount</string>
+    <string name="symbal_name">Symbol\nSymbol name</string>
+    <string name="buy_avg_qty">Buy Avg \nBuy Qyt</string>
+    <string name="minimum_selling">Min Sell</string>
+    <string name="ltp_p_l">LTP\nP/L(Rs)\t\tP/L(%)</string>
+
+</resources>

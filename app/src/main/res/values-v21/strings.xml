@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="submit">Submit</string>
+    <string name="profit_loss">Profit / Loss in ₹</string>
+    <string name="profit_loss_in">Profit / Loss in %</string>
+    <string name="fund_transaction">Fund Transaction</string>
+    <string name="action">Action</string>
+    <string name="desposit">Deposit</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="amount">Amount</string>
+    <string name="set_target">Set Target</string>
+    <string name="previous">Previous</string>
+    <string name="current">Current</string>
+    <string name="next">Next</string>
+
+    <string name="target_guide_for_current_month">Target Guide For Current Month</string>
+    <string name="target">Target</string>
+    <string name="so_far_done">So far done</string>
+    <string name="yet_to_do">Yet to do</string>
+    <string name="per_day_required">Per day required</string>
+    <string name="days_in_hand">Days in hand</string>
+    <string name="target_history">Target History</string>
+    <string name="month">Month</string>
+
+    <string name="achieved_amount">Achieved Amount</string>
+    <string name="target_amount">Target Amount</string>
+
+</resources>

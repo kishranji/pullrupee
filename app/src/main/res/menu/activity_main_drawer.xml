@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard_white_24dp"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_funds"
+            android:icon="@drawable/ic_attach_money_white_24dp"
+            android:title="Funds" />
+        <item
+            android:id="@+id/nav_holdings"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Holdings" />
+        <item
+            android:id="@+id/nav_monthly_target"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Monthly Target" />
+        <item
+            android:id="@+id/nav_watch_Alert"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Watch &amp; Alert" />
+          <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Intraday Calculator" />
+        <item
+            android:id="@+id/nav_today_tip"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Today's Tip" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_settings_new_white_24dp"
+            android:title="Log Out" />
+
+    </group>
+
+
+</menu>

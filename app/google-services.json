@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "927599362634",
+    "firebase_url": "https://pullrupee.firebaseio.com",
+    "project_id": "pullrupee",
+    "storage_bucket": "pullrupee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927599362634:android:acc983aadbc5702e",
+        "android_client_info": {
+          "package_name": "com.pullrueepe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927599362634-jqdivae6s5vf0qlq0rgapr0sqbur83kq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pullrueepe",
+            "certificate_hash": "f4d6522eb866333d28b47cb822ee7c821ea8af6d"
+          }
+        },
+        {
+          "client_id": "927599362634-9mkraf7u8aq18ct9htefku2ba0ksctt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeja6mfZ8Jdy3Fi65-38iQS4uJe-9LV6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927599362634-9mkraf7u8aq18ct9htefku2ba0ksctt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
